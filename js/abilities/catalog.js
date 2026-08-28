@@ -1,7 +1,0 @@
-export const ABILITY_ROLES = {
-fireball:'PROJECTILE',arrow:'PROJECTILE',skeleton:'SUMMON',sword:'MELEE',lightning:'AOE',ice:'PROJECTILE',frostNova:'AOE',axe:'PROJECTILE',aura:'ZONE',meteor:'AOE',boomerang:'PROJECTILE',poison:'PROJECTILE',deathAura:'ZONE',shield:'ORBITAL',holySpear:'PROJECTILE',storm:'CHAIN',windBlade:'PROJECTILE',thorn:'AOE',shadowDagger:'PROJECTILE',stoneSpike:'TRAP',curse:'TRAP',holyBlade:'MELEE',elementalBolt:'PROJECTILE',arcaneSlash:'BEAM',familiar:'SUMMON',bloodNova:'AOE',kiBurst:'CONTROL',arcaneDrone:'SUMMON'};
-
-Object.assign(ABILITY_ROLES,{runeBarrage:'SIGNATURE',boneCovenant:'SIGNATURE',huntersVolley:'SIGNATURE',arcaneBladeSignature:'SIGNATURE',livingThorns:'SIGNATURE',shadowKnivesSignature:'SIGNATURE',abyssalSigilSignature:'SIGNATURE',sacredWaveSignature:'SIGNATURE',primalCoreSignature:'SIGNATURE',arcaneGreatswordSignature:'SIGNATURE',celestialLightSignature:'SIGNATURE',bloodLancesSignature:'SIGNATURE',kiFistsSignature:'SIGNATURE',arcaneDronesSignature:'SIGNATURE'});
-export const ABILITY_MECHANICS = {
-lightning:'Ataque vertical marcado com atraso e explosão',storm:'Tempestade encadeada focada em densidade',meteor:'Ataque vertical com telegraph',frostNova:'Onda radial de controle',curse:'Marca atrasada que implode',arcaneSlash:'Feixe/crescente linear',familiar:'Companheiro autônomo de disparo',kiBurst:'Onda direcional de empurrão',bloodNova:'Explosão radial que escala com HP',elementalBolt:'Ciclo elemental por disparo'};
-export function roleOf(id){return ABILITY_ROLES[id]||'SPECIAL';}
